@@ -31,7 +31,7 @@ public final class OtlpGrpcSpanExporterBuilder {
   private static final Logger logger =
       Logger.getLogger(OtlpGrpcSpanExporterBuilder.class.getName());
 
-  private static final String DEFAULT_ENDPOINT_URL = "http://localhost:4317";
+  private static final String DEFAULT_ENDPOINT_URL = "http://localhost:55680";
   private static final URI DEFAULT_ENDPOINT = URI.create(DEFAULT_ENDPOINT_URL);
   private static final long DEFAULT_TIMEOUT_SECS = 10;
 
